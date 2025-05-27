@@ -1,0 +1,85 @@
+Renesas Optimizing Linker (V3.05.00 )             27-May-2025 16:37:12
+
+*** Options ***
+
+-subcommand=LinkerG23_RSSK_Slider_original.tmp
+-MAKEUD="C:\e2s_workspace\e2workspace_202307_01\RL78_touch\G23_RSSK_Slider_original\HardwareDebug/G23_RSSK_Slider_original_l.ud" 
+-device="C:/Users/a5140073/.eclipse/com.renesas.platform_1297214930/DebugComp/RL78/RL78/Common/DR7F100GSN.DVF" 
+-list="G23_RSSK_Slider_original.map" 
+-nooptimize 
+-entry=_start 
+-auto_section_layout 
+-security_id=00000000000000000000 
+-debug_monitor=BFE00-BFFFF 
+-user_opt_byte=EF3AE8 
+-ocdbg=84 
+-ocdtr 
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g23\stkinit.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\cstart.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common_ccrl.obj"
+-input=".\qe_gen\qe_touch_config.obj"
+-input=".\qe_gen\qe_touch_sample.obj"
+-input=".\src\G23_RSSK_Slider_original.obj"
+-input=".\src/smc_gen/Config_UARTA1\Config_UARTA1.obj"
+-input=".\src/smc_gen/Config_UARTA1\Config_UARTA1_user.obj"
+-input=".\src/smc_gen/general\r_cg_systeminit.obj"
+-input=".\src/smc_gen/general\r_cg_uarta_common.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g23\hdwinit.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g23\r_bsp_init.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rl78_g23\mcu_clocks.obj"
+-input=".\src/smc_gen/r_ctsu\r_ctsu.obj"
+-input=".\src/smc_gen/r_pincfg\r_ctsu_pinset.obj"
+-input=".\src/smc_gen/rm_touch\rm_touch.obj"
+-library="C:\Program Files (x86)\Renesas\RL78\1_12_1\lib\rl78em4s99.lib"
+-library="C:\Program Files (x86)\Renesas\RL78\1_12_1\lib\rl78em4r.lib"
+-library="C:\Program Files (x86)\Renesas\RL78\1_12_1\lib\malloc_n.lib"
+-output="G23_RSSK_Slider_original.abs" 
+-debug 
+-nocompress 
+-memory=high 
+-rom=.data=.dataR,.sdata=.sdataR 
+-nomessage 
+-nologo
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+.vect
+                                  00000000  0000007f        80   0
+.constf
+                                  00000080  00000080         0   2
+.init_array
+                                  00000080  00000080         0   2
+.sdata
+                                  00000080  00000080         0   2
+.data
+                                  00000082  00000089         8   2
+.option_byte
+                                  000000c0  000000c3         4   1
+.security_id
+                                  000000c4  000000cd         a   1
+.SLIB
+                                  000000c4  000000c4         0   1
+.monitor1
+                                  000000ce  000000d7         a   1
+.text
+                                  000000d8  000002b6       1df   1
+.RLIB
+                                  000002b7  00000341        8b   1
+.const
+                                  00003000  0000317d       17e   2
+.textf
+                                  0000317e  000064b3      3336   1
+.monitor2
+                                  000bfe00  000bffff       200   1
+.bss
+                                  000f3f00  000f4289       38a   2
+.dataR
+                                  000f428a  000f4291         8   2
+.sbss
+                                  000ffe20  000ffe20         0   2
+.sdataR
+                                  000ffe20  000ffe20         0   2
